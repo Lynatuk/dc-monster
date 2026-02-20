@@ -1,3 +1,4 @@
+[PROTOTYPE]
 Dice-based roguelite battler with incremental progression.
 
 Игрок бросает кубики, проходит волны врагов и боссов, прокачивает грани (D4 → D20), собирает комбо и усиливает билд.
