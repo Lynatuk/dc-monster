@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 340fafde94bfb004894186fc422d4e82, type: 3}
+  m_Name: DiceData
+  m_EditorClassIdentifier: 
+  numericalInfoDices:
+  - diceFaceRarity: 0
+    faceSprite: {fileID: -855298285791758126, guid: 89ca3f0587c1ba84e90ad19742bbc4fc, type: 3}
+    faceMat: {fileID: 2100000, guid: ca1ba0735598dc94189c5a7a3b904e77, type: 2}
+    numbColor: {r: 0.5294118, g: 0.35686275, b: 0.14509805, a: 1}
+    numbMat: {fileID: -7343374989317602649, guid: f0e2307e4a7248243830a37c82280375, type: 2}
+  - diceFaceRarity: 1
+    faceSprite: {fileID: 6937817954938267909, guid: 9b1fd6ccf9d646244aa8e9d6b5b4bf85, type: 3}
+    faceMat: {fileID: 2100000, guid: ca1ba0735598dc94189c5a7a3b904e77, type: 2}
+    numbColor: {r: 0.42352942, g: 0.20392157, b: 0.011764706, a: 1}
+    numbMat: {fileID: -7343374989317602649, guid: f0e2307e4a7248243830a37c82280375, type: 2}
+  - diceFaceRarity: 2
+    faceSprite: {fileID: -6470460504253458178, guid: 55746ad7a5ad2d04e8eeec735ae51aec, type: 3}
+    faceMat: {fileID: 2100000, guid: ca1ba0735598dc94189c5a7a3b904e77, type: 2}
+    numbColor: {r: 0.5647059, g: 0.45490196, b: 0.22745098, a: 1}
+    numbMat: {fileID: -7343374989317602649, guid: f0e2307e4a7248243830a37c82280375, type: 2}
+  - diceFaceRarity: 3
+    faceSprite: {fileID: -4178046375966092550, guid: d643ec290f5f6a64e990734d86488f50, type: 3}
+    faceMat: {fileID: 2100000, guid: ca1ba0735598dc94189c5a7a3b904e77, type: 2}
+    numbColor: {r: 0.1882353, g: 0.26666668, b: 0.5647059, a: 1}
+    numbMat: {fileID: -7343374989317602649, guid: f0e2307e4a7248243830a37c82280375, type: 2}
+  - diceFaceRarity: 4
+    faceSprite: {fileID: 4130640169021434097, guid: 97eabd4539aebef4bbfa1aa69d576716, type: 3}
+    faceMat: {fileID: 2100000, guid: ca1ba0735598dc94189c5a7a3b904e77, type: 2}
+    numbColor: {r: 0.23529412, g: 0.23529412, b: 0.23529412, a: 1}
+    numbMat: {fileID: -7343374989317602649, guid: f0e2307e4a7248243830a37c82280375, type: 2}
+  - diceFaceRarity: 5
+    faceSprite: {fileID: 3465286685962602723, guid: 63a2d5bc7d84e32438f0a9ee9f5b406d, type: 3}
+    faceMat: {fileID: 2100000, guid: ca1ba0735598dc94189c5a7a3b904e77, type: 2}
+    numbColor: {r: 0.07058824, g: 0.3764706, b: 0.047058824, a: 1}
+    numbMat: {fileID: -7343374989317602649, guid: f0e2307e4a7248243830a37c82280375, type: 2}
+  - diceFaceRarity: 6
+    faceSprite: {fileID: 7028616704906629411, guid: 028278a9da214374f8893d598e92a05a, type: 3}
+    faceMat: {fileID: 2100000, guid: ca1ba0735598dc94189c5a7a3b904e77, type: 2}
+    numbColor: {r: 0.27058825, g: 0.5568628, b: 0.42352942, a: 1}
+    numbMat: {fileID: -7343374989317602649, guid: f0e2307e4a7248243830a37c82280375, type: 2}
+  - diceFaceRarity: 7
+    faceSprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    faceMat: {fileID: 2100000, guid: ca1ba0735598dc94189c5a7a3b904e77, type: 2}
+    numbColor: {r: 0.27058825, g: 0.5568628, b: 0.42352942, a: 1}
+    numbMat: {fileID: -7343374989317602649, guid: f0e2307e4a7248243830a37c82280375, type: 2}
+  - diceFaceRarity: 1
+    faceSprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    faceMat: {fileID: 2100000, guid: ca1ba0735598dc94189c5a7a3b904e77, type: 2}
+    numbColor: {r: 0.27058825, g: 0.5568628, b: 0.42352942, a: 1}
+    numbMat: {fileID: -7343374989317602649, guid: f0e2307e4a7248243830a37c82280375, type: 2}
+  - diceFaceRarity: 1
+    faceSprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    faceMat: {fileID: 2100000, guid: b035d557e13cd6440b61c33723bb5702, type: 2}
+    numbColor: {r: 0, g: 0, b: 0, a: 0}
+    numbMat: {fileID: 0}
+  - diceFaceRarity: 1
+    faceSprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    faceMat: {fileID: 2100000, guid: b035d557e13cd6440b61c33723bb5702, type: 2}
+    numbColor: {r: 0, g: 0, b: 0, a: 0}
+    numbMat: {fileID: 0}
+  - diceFaceRarity: 1
+    faceSprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    faceMat: {fileID: 2100000, guid: b035d557e13cd6440b61c33723bb5702, type: 2}
+    numbColor: {r: 0, g: 0, b: 0, a: 0}
+    numbMat: {fileID: 0}
+  - diceFaceRarity: 1
+    faceSprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    faceMat: {fileID: 2100000, guid: b035d557e13cd6440b61c33723bb5702, type: 2}
+    numbColor: {r: 0, g: 0, b: 0, a: 0}
+    numbMat: {fileID: 0}
+  - diceFaceRarity: 1
+    faceSprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    faceMat: {fileID: 2100000, guid: b035d557e13cd6440b61c33723bb5702, type: 2}
+    numbColor: {r: 0, g: 0, b: 0, a: 0}
+    numbMat: {fileID: 0}
+  - diceFaceRarity: 1
+    faceSprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    faceMat: {fileID: 2100000, guid: b035d557e13cd6440b61c33723bb5702, type: 2}
+    numbColor: {r: 0, g: 0, b: 0, a: 0}
+    numbMat: {fileID: 0}
+  - diceFaceRarity: 1
+    faceSprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    faceMat: {fileID: 2100000, guid: b035d557e13cd6440b61c33723bb5702, type: 2}
+    numbColor: {r: 0, g: 0, b: 0, a: 0}
+    numbMat: {fileID: 0}
+  - diceFaceRarity: 1
+    faceSprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    faceMat: {fileID: 2100000, guid: b035d557e13cd6440b61c33723bb5702, type: 2}
+    numbColor: {r: 0, g: 0, b: 0, a: 0}
+    numbMat: {fileID: 0}
+  - diceFaceRarity: 1
+    faceSprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    faceMat: {fileID: 2100000, guid: b035d557e13cd6440b61c33723bb5702, type: 2}
+    numbColor: {r: 0, g: 0, b: 0, a: 0}
+    numbMat: {fileID: 0}
+  - diceFaceRarity: 1
+    faceSprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    faceMat: {fileID: 2100000, guid: b035d557e13cd6440b61c33723bb5702, type: 2}
+    numbColor: {r: 0, g: 0, b: 0, a: 0}
+    numbMat: {fileID: 0}
+  - diceFaceRarity: 1
+    faceSprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    faceMat: {fileID: 2100000, guid: b035d557e13cd6440b61c33723bb5702, type: 2}
+    numbColor: {r: 0, g: 0, b: 0, a: 0}
+    numbMat: {fileID: 0}

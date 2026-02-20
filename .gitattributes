@@ -1,0 +1,97 @@
+# Unity Git LFS configuration
+# Large binary assets are stored via Git LFS
+# YAML-based assets use unityyaml merge for better diffs
+
+# Unity YAML merge (requires UnityYAMLMerge in PATH)
+[attr]unityyaml -text merge=unityyamlmerge diff
+
+# Git LFS for binary assets
+[attr]lfs -text filter=lfs diff=lfs merge=lfs
+
+# Line endings
+* text=auto
+
+# C# code
+*.cs text diff=csharp
+
+# Unity YAML assets (text, mergeable)
+*.meta unityyaml
+*.unity unityyaml
+*.asset unityyaml
+*.prefab unityyaml
+*.mat unityyaml
+*.anim unityyaml
+*.controller unityyaml
+*.overrideController unityyaml
+*.physicMaterial unityyaml
+*.physicsMaterial2D unityyaml
+*.playable unityyaml
+*.mask unityyaml
+*.brush unityyaml
+*.flare unityyaml
+*.fontsettings unityyaml
+*.guiskin unityyaml
+*.giparams unityyaml
+*.renderTexture unityyaml
+*.spriteatlas unityyaml
+*.terrainlayer unityyaml
+*.mixer unityyaml
+*.shadervariants unityyaml
+*.preset unityyaml
+*.asmdef -text diff
+
+# Firebase desktop native binaries
+Assets/Firebase/Plugins/x86_64/* filter=lfs diff=lfs merge=lfs -text
+
+# Unity binary assets
+# *.cubemap lfs
+# *.unitypackage lfs
+# *-[Tt]errain.asset -unityyaml lfs
+# *-[Nn]av[Mm]esh.asset -unityyaml lfs
+
+# Images
+# *.jpg lfs
+# *.jpeg lfs
+# *.png lfs
+# *.apng lfs
+# *.gif lfs
+# *.bmp lfs
+# *.exr lfs
+# *.tga lfs
+# *.tiff lfs
+# *.tif lfs
+# *.dds lfs
+# *.webp lfs
+# *.psd lfs
+
+# Audio
+# *.mp3 lfs
+# *.ogg lfs
+# *.wav lfs
+# *.aiff lfs
+# *.aif lfs
+
+# Video
+# *.mov lfs
+# *.mp4 lfs
+# *.webm lfs
+# *.avi lfs
+# *.ogv lfs
+
+# 3D models
+# *.fbx lfs
+# *.obj lfs
+# *.blend lfs
+# *.dae lfs
+# *.3ds lfs
+# *.abc lfs
+# *.glb lfs
+# *.bin lfs
+
+# Fonts
+# *.otf lfs
+# *.ttf lfs
+
+# Archives
+# *.zip lfs
+# *.7z lfs

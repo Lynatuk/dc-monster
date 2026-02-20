@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13c6759992a72114d916f3ceaf59f90b, type: 3}
+  m_Name: EconomyConfig
+  m_EditorClassIdentifier: 
+  baseDmgPerLevel: 0.1
+  damageLevelA: 0.2
+  damageLevelP: 0.8
+  upgradeCostExpC: 1.22
+  upgradeNonlinearK: 0.02
+  baseCosts: []
+  Hp0: 100
+  growthG: 0.25
+  intraWaveR: 0.08
+  bossMult: 12
+  coinsK: 1
+  coinsExp: 0.9

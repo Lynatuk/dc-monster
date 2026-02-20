@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e4b5901d763ebf44b53505c9c6838f9, type: 3}
+  m_Name: Wave4
+  m_EditorClassIdentifier: 
+  stageEnemies:
+  - {fileID: 11400000, guid: e3e01e1f7f06d4441a28b53041501923, type: 2}
+  - {fileID: 11400000, guid: 9c151f320353c3841947a65c901205d6, type: 2}
+  - {fileID: 11400000, guid: 2fda714c572247c40a1a5e60d7ba8c5d, type: 2}
+  - {fileID: 11400000, guid: bff79f4338a836f4db03e064b8e6f33d, type: 2}
+  - {fileID: 11400000, guid: 2d464750d5c4b4043886298eb82fe14b, type: 2}
+  - {fileID: 11400000, guid: 81eea9577ba669c4faaa9db0cdd95cdb, type: 2}
+  - {fileID: 11400000, guid: bc67942cdd042e14ebdda002e431db65, type: 2}
+  - {fileID: 11400000, guid: 6f647a31e014f8146a3a4ec99dfca6c4, type: 2}
+  - {fileID: 11400000, guid: 914dd12c794f0f3439a996cc1797cf1a, type: 2}
+  - {fileID: 11400000, guid: a6bef8e4bb89c3445ac02a51e2108e96, type: 2}
